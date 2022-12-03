@@ -1,8 +1,8 @@
-type Combinable = number | string;
+type CombinableType = number | string;
 type ConversionDescriptor = 'as-number' | 'as-text';
 
 function combine(
-  input1: Combinable,
+  input1: CombinableType,
   input2: number | string,
   resultConversion: ConversionDescriptor,
 ) {

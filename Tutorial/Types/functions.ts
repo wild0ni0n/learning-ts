@@ -1,8 +1,8 @@
-function add(n1: number, n2: number) {
+function add3(n1: number, n2: number) {
     return n1 + n2;
 }
 
-function printResult(num: number): void {
+function printResult2(num: number): void {
     console.log('Result: '+ num);
 }
 
